@@ -1,0 +1,407 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TransactionDetailsScreen snapshot 1`] = `
+[
+  <View>
+    <View
+      replaceTheme={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#7908ff",
+          "borderBottomColor": "#f2f2f2",
+          "borderBottomWidth": 0.5,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingHorizontal": 10,
+          "paddingVertical": 10,
+        }
+      }
+      testID="headerContainer"
+      updateTheme={[Function]}
+    >
+      <RNCSafeAreaView
+        edges={
+          [
+            "left",
+            "top",
+            "right",
+          ]
+        }
+        style={
+          {
+            "flexDirection": "row",
+            "width": "100%",
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "flex-start",
+              "flex": 1,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "flex-start",
+                "overflow": "hidden",
+              }
+            }
+            testID="RNE__ICON__CONTAINER"
+          >
+            <View
+              accessibilityRole="button"
+              accessibilityState={
+                {
+                  "disabled": false,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              icon="arrow-back"
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              testID="RNE__ICON__CONTAINER_ACTION"
+            >
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "transparent",
+                    "justifyContent": "center",
+                  }
+                }
+                testID="RNE__ICON"
+              >
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    [
+                      {
+                        "color": "#FFFFFF",
+                        "fontSize": 24,
+                      },
+                      {
+                        "backgroundColor": "transparent",
+                      },
+                      {
+                        "fontFamily": "Material Icons",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      {},
+                    ]
+                  }
+                  testID="RNE__ICON__Component"
+                >
+                  
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "flex": 3,
+            }
+          }
+        >
+          <Text
+            numberOfLines={1}
+            style={
+              {
+                "color": "#FFFFFF",
+                "fontSize": 20,
+                "fontStyle": "normal",
+                "fontWeight": "bold",
+                "letterSpacing": 0,
+              }
+            }
+            text="Detalle de movimiento"
+          >
+            Detalle de movimiento
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "alignItems": "flex-end",
+              "flex": 1,
+            }
+          }
+        />
+      </RNCSafeAreaView>
+    </View>
+    <RCTScrollView
+      alwaysBounceVertical={false}
+      collapsable={false}
+      handlerTag={1}
+      handlerType="NativeViewGestureHandler"
+      onGestureHandlerEvent={[Function]}
+      onGestureHandlerStateChange={[Function]}
+      showsVerticalScrollIndicator={false}
+      waitFor={
+        [
+          {
+            "current": null,
+          },
+        ]
+      }
+    >
+      <View>
+        <View
+          style={
+            {
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 8,
+              "marginHorizontal": 8,
+              "marginVertical": 20,
+              "padding": 16,
+            }
+          }
+        >
+          <View>
+            <Text
+              accessibilityRole="text"
+              style={
+                {
+                  "color": "#6c6c6c",
+                  "fontSize": 18,
+                  "fontStyle": "normal",
+                  "fontWeight": "600",
+                  "letterSpacing": 0,
+                  "marginTop": 20,
+                }
+              }
+            >
+              ID
+            </Text>
+            <Text
+              accessibilityRole="text"
+              style={
+                {
+                  "color": "#242424",
+                  "fontSize": 16,
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                  "letterSpacing": 0,
+                  "marginTop": 4,
+                }
+              }
+            >
+              0
+            </Text>
+          </View>
+          <View>
+            <Text
+              accessibilityRole="text"
+              style={
+                {
+                  "color": "#6c6c6c",
+                  "fontSize": 18,
+                  "fontStyle": "normal",
+                  "fontWeight": "600",
+                  "letterSpacing": 0,
+                  "marginTop": 20,
+                }
+              }
+            >
+              Fecha
+            </Text>
+            <Text
+              accessibilityRole="text"
+              style={
+                {
+                  "color": "#242424",
+                  "fontSize": 16,
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                  "letterSpacing": 0,
+                  "marginTop": 4,
+                }
+              }
+            >
+              6/01/2022
+            </Text>
+          </View>
+          <View>
+            <Text
+              accessibilityRole="text"
+              style={
+                {
+                  "color": "#6c6c6c",
+                  "fontSize": 18,
+                  "fontStyle": "normal",
+                  "fontWeight": "600",
+                  "letterSpacing": 0,
+                  "marginTop": 20,
+                }
+              }
+            >
+              Dirección
+            </Text>
+            <Text
+              accessibilityRole="text"
+              style={
+                {
+                  "color": "#242424",
+                  "fontSize": 16,
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                  "letterSpacing": 0,
+                  "marginTop": 4,
+                }
+              }
+            >
+              3Mgwp1XyHNPC651JB1kzFUni8MziFk8Hi4
+            </Text>
+          </View>
+          <View>
+            <Text
+              accessibilityRole="text"
+              style={
+                {
+                  "color": "#6c6c6c",
+                  "fontSize": 18,
+                  "fontStyle": "normal",
+                  "fontWeight": "600",
+                  "letterSpacing": 0,
+                  "marginTop": 20,
+                }
+              }
+            >
+              Monto
+            </Text>
+            <Text
+              accessibilityRole="text"
+              style={
+                {
+                  "color": "#242424",
+                  "fontSize": 16,
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                  "letterSpacing": 0,
+                  "marginTop": 4,
+                }
+              }
+            >
+              5,0005 BTC
+            </Text>
+          </View>
+          <View>
+            <Text
+              accessibilityRole="text"
+              style={
+                {
+                  "color": "#6c6c6c",
+                  "fontSize": 18,
+                  "fontStyle": "normal",
+                  "fontWeight": "600",
+                  "letterSpacing": 0,
+                  "marginTop": 20,
+                }
+              }
+            >
+              Costo de red
+            </Text>
+            <Text
+              accessibilityRole="text"
+              style={
+                {
+                  "color": "#242424",
+                  "fontSize": 16,
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                  "letterSpacing": 0,
+                  "marginTop": 4,
+                }
+              }
+            >
+              0,00001 BTC
+            </Text>
+          </View>
+          <View>
+            <Text
+              accessibilityRole="text"
+              style={
+                {
+                  "color": "#6c6c6c",
+                  "fontSize": 18,
+                  "fontStyle": "normal",
+                  "fontWeight": "600",
+                  "letterSpacing": 0,
+                  "marginTop": 20,
+                }
+              }
+            >
+              Tipo de movimiento
+            </Text>
+            <Text
+              accessibilityRole="text"
+              style={
+                {
+                  "color": "#242424",
+                  "fontSize": 16,
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                  "letterSpacing": 0,
+                  "marginTop": 4,
+                }
+              }
+            >
+              RETIRO
+            </Text>
+          </View>
+          <View>
+            <Text
+              accessibilityRole="text"
+              style={
+                {
+                  "color": "#6c6c6c",
+                  "fontSize": 18,
+                  "fontStyle": "normal",
+                  "fontWeight": "600",
+                  "letterSpacing": 0,
+                  "marginTop": 20,
+                }
+              }
+            >
+              Estado
+            </Text>
+            <Text
+              accessibilityRole="text"
+              style={
+                {
+                  "color": "#242424",
+                  "fontSize": 16,
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                  "letterSpacing": 0,
+                  "marginTop": 4,
+                }
+              }
+            >
+              Completo
+            </Text>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>,
+  " ",
+]
+`;
